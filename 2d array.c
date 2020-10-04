@@ -31,7 +31,7 @@ int main()
   }
   
   int m,n;
-  printf("\Enter the element to be printed   :");
+  printf("Enter the element to be printed   :");
   scanf("%d%d",&m,&n);
   printf("Element You reuested is at [%d][%d] location\nThe Element is %d",m,n,arr[m][n]);
 getch();
