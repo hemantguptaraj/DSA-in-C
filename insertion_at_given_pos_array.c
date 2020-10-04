@@ -7,13 +7,12 @@ int main(){
 	int position, element;
 	printf("Total Elements to be Inserted   : ");
 	scanf("%d",&n);
-	{	
+		
 	printf("Enter values of array : \n");
 	for(i=0; i<n; i++)
  	  {
 		scanf("%d",&a[i]);
 	  }
-    }
 	
 	printf("Enter Position at which elements needs to be inserted  :");
 	scanf("%d",&position);
